@@ -14,15 +14,15 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 50,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Faccia" },
+      { name: "Bocca" },
+     // { name: "Capelli" },
+     // { name: "Occhi" },
+      { name: "Naso" },
+      { name: "Sopracciglia" },
     ],
   },
 ];
@@ -32,9 +32,9 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
-  smoothing: false,
+  width: 1024,
+  height: 1024,
+  smoothing: true,
 };
 
 const extraMetadata = {
